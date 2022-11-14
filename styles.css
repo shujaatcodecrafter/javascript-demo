@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    
+}
+
+.container {
+text-align: center;
+width: 500px;
+
+}
+.container >button{
+    background-color: blue;
+    color: white;
+    
+}
+.contentList {
+    text-align: center;
+    
+    margin-top: 4vh;
+    padding: 1.3vh;
+    position: flex !important;
+    flex-direction: row;
+    gap: 2vh;
+    
+}
+.contentList>div{
+    margin-top: 8px;
+    width: 400px;
+    background-color:aqua ;
+    padding: 1.5vh;
+}
+.contentList>div>label{
+
+    color: black;
+    
+    
+}
+.contentList>div>label>span{
+    background-color: blue;
+    padding: 1vh;
+    border-radius: 4px;
+    color: white;
+}
