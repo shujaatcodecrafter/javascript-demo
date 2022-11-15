@@ -18,16 +18,17 @@ width: 500px;
     
     margin-top: 4vh;
     padding: 1.3vh;
-    position: flex !important;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     gap: 2vh;
     
 }
 .contentList>div{
-    margin-top: 8px;
     width: 400px;
     background-color:aqua ;
     padding: 1.5vh;
+    display:flex;
+    flex-direction: row;
 }
 .contentList>div>label{
 
